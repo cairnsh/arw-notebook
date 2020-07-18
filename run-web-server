@@ -1,0 +1,4 @@
+#!/bin/bash
+#atashi iya ne
+CERTS=/home/cola/src/j
+jupyter notebook --ip=192.168.0.198 --port=9999 --no-browser --certfile ${CERTS}/mycert.pem --keyfile ${CERTS}/mykey.key
